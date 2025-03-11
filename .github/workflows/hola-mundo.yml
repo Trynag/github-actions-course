@@ -11,3 +11,5 @@ jobs:
         run: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.2.0
+      - name: Correr script
+        uses: node hola-muno.js
