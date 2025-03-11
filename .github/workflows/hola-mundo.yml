@@ -12,4 +12,4 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.2.0
       - name: Correr script
-        uses: node hola-mundo.js
+        run: node hola-mundo.js
