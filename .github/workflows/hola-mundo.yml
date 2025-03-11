@@ -3,7 +3,7 @@ run-name: ¡Alfin llego el CI/CD baby!
 on: [push]
 jobs:
   hola-mundo:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
